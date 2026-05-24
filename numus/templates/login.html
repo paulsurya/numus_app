@@ -5,7 +5,7 @@
 {% block body %}
     <div class="grid place-items-center text-[#bac2de]">
         <div class="grid pt-5 bg-[#313244] w-2/4 h-max justify-items-center items-center text-xl rounded-md text-playfair-display">
-            <form action="{{ url_for("dashboard") }}" method="POST">
+            <form action="/auth/login" method="POST">
                 <label class=""for="username">Username</label>
                 <br>
                 <input type="text" name="username" placeholder="John Mark">

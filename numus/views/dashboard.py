@@ -5,5 +5,5 @@ dashBoard_bp = Blueprint("dashBoard", __name__)
 
 
 @dashBoard_bp.route("/")
-def dashBoard():
-    return render_template("input.html")
+def dashboard():
+    return render_template("dashboard.html")
