@@ -16,6 +16,6 @@ Hello
 
 # Requirements
 All the necessary requirements are placed in the *requirements.txt* file to install all the dependencies use the pip cmd
-'''bash
+```bash
 pip install -r requirements.txt
-'''
+```
