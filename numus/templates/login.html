@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block head %}<title>Login Now</title>{% endblock %}
+{% block js %}{% endblock %}
+{% block css %}{% endblock %}
+{% block body %}
+    <div class="grid place-items-center text-[#bac2de]">
+        <div class="grid pt-5 bg-[#313244] w-2/4 h-max justify-items-center items-center text-xl rounded-md text-playfair">
+            <form action="/login" method="POST">
+                <label class=""for="username">Username</label>
+                <br>
+                <input type="text" name="username" placeholder="John Mark">
+                <br>
+                <label for="password1">Enter your password</label>
+                <br>
+                <input type="password" name="password1">
+                <br>
+                <label for="password2">Re-enter your password</label>
+                <br>
+                <input type="password" name="password2">
+                <br>
+                <button class="rounded-md bg-[#74c7ec] text-[#1e1e2e] py-2 px-4"
+                        type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+{% endblock %}
