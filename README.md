@@ -1,6 +1,6 @@
 # **Numus**
 
-### It is a simple finance tracking app, which runs on Flask.It has the following features
+##### It is a simple finance tracking app, which runs on Flask.It has the following features
 - Inputing expenses and incomes into a simple UI
 - An interactive DashBoard to better explain how user is spending their money
 - Categorizing each expenses into either *foods,travel or custom categories* to better visualize the expenses spread

@@ -1,8 +1,8 @@
-from flask import Blueprint
+from flask import Blueprint, render_template
 
 input_bp = Blueprint("input", __name__)
 
 
 @input_bp.route("/")
 def get_input():
-    return "<h1>Your input is here</h1>"
+    return render_template("input.html")
